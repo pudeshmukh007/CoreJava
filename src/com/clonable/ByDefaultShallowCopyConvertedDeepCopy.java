@@ -3,7 +3,7 @@ package com.clonable;
 class Employee2 implements Cloneable
 {
 	private int id;
-	private String name;
+	private int name;
 	
 	public Employee2(int id, String name) {
 		super();
