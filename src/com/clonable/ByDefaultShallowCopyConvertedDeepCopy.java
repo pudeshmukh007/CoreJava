@@ -11,25 +11,17 @@ class Employee2 implements Cloneable
 		this.name = name;
 	}
 	
-	
-
 	public int getId() {
 		return id;
 	}
-
-
 
 	public void setId(int id) {
 		this.id = id;
 	}
 
-
-
 	public String getName() {
 		return name;
 	}
-
-
 
 	public void setName(String name) {
 		this.name = name;
@@ -42,14 +34,11 @@ class Employee2 implements Cloneable
 		return "Employee2 [id=" + id + ", name=" + name + "]";
 	}
 
-
-
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
 		return super.clone();
 	}
-	
 	
 }
 
